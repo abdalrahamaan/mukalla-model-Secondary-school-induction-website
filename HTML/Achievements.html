@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Achievements.css">
+    <title>ثانوية المكلا النموذجية للبنين</title>
+</head>
+<body>
+
+    <!-- ===================== المقدمة ===================== -->
+
+  <section class="header">
+    <section  class="header">
+    <nav>
+      <a href=""><img src="../pictures/logo/logo.png" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()">
+          <img class="icon-xmark-size" src="../icon/cloes.svg" /></i>
+        <ul>
+          <li><a href="./index.html"> الرجوع إلى الصفحة الرئيسية</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()">
+        <img class="icon-bars-size" src="../icon/muno.svg" /></i>
+    </nav>
+
+
+    <!-- =============== الأنجازات ================ -->
+  
+  <section class="about__achievements" id="F">
+    <div class="container about__achievements-container">
+      <div class="about__achievements-left">
+        <img src="../pictures/Achievements/achievements.jpg">
+      </div>
+      <div class="about__achievements-right">
+        <h1>الإنجازات</h1>
+        <p class="p">
+          نصنع طالب متفوق علمياً وعمليا إنطلاقا من هاذ المبدأ تميزت الثانوية بمشركاتها الفعالة على المستوى المحلي والعالمي لطموحاتها العالية
+           لتكون الرقم واحد فقد شاركت في مسابقات و مونديالات في كل أنواع الميادين وحققت العديد من المراكز
+            العالية  
+        </p>
+        <div class="achievements__cards">
+          <article class="achievements__card">
+              <span class="achievements__icon blue">
+                <img class="icon" src="../icon/school.svg">
+              </span>
+              <h3>200+</h3>
+              <p> عدد المشاركين </p>
+            </article>
+
+          
+              <article class="achievements__card">
+              <span class="achievements__icon red">
+                <img class="icon" src="../icon/globe.svg">
+              </span>
+              <h3>13+</h3>
+              <p>عدد البلدان</p>
+            </article>
+
+              <article class="achievements__card">
+              <span class="achievements__icon green">
+                <img class="icon" src="../icon/trophy.svg">
+              </span>
+              <h3>87+</h3>
+              <p>عدد الجوائز</p>
+            </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= footer =============== -->
+
+  <section class="footer">
+    <h4>DESIGN</h4>
+    <p>The page was written and designed by the two students,<br>
+      <span>Abdul Rahman Abdul Qadir Ghannam</span>
+      and <span>Muhammad Maher Al-Jawi</span></p>
+    <div class="icons">
+      <a href="
+        https://m.facebook.com/mmss.mukalla"><img class="fa fa-fac"
+          src="../icon/facebook.svg"></a>
+      <a href="
+        https://chat.whatsapp.com/Kk1AYeshq90Jl2wRnkveMt"><img class="fa fa-wha " src="../icon/whatsapp.svg"></a>
+      <a href="
+       https://youtube.com/@user-yg7xt1qk3z?feature=shared"><img class="fa fa-yuo" src="../icon/youtube.svg"></a>
+    </div>
+      <small>
+        &copy; 2024 mukalla model Secondary school.
+      </small>
+  </section>
+
+ <!-- ============== JavaScript for toggle Menu ================== -->
+
+ <script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+    
+</body>
+</html>
